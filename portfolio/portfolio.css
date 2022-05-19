@@ -169,8 +169,9 @@ SKill
 #quiz img {
     width: 250px;
     height: 190px;
-    border: solid 2px black;
+    border: solid 1px black;
     margin: auto 20px;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.32);
 }
 #quiz:hover{
     opacity: 0.7;
@@ -179,8 +180,9 @@ SKill
 #calculator img {
     width: 250px;
     height: 190px;
-    border: solid 2px black;
+    border: solid 1px black;
     margin: auto 20px;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.32);
 }
 
 #calculator:hover {
