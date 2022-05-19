@@ -1,0 +1,188 @@
+@charset "UTF-8";
+
+html {
+    font-size: 100%;
+    font-family: cursive;
+}
+
+body {
+    color: #24292e
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+/*classごとの設定*/
+.site-title{
+    width: 120px;
+    line-height: 1px;
+    padding: 10px 0;
+}
+
+.sec-title{
+    display: inline-block;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 60px;
+    border-bottom: solid 3px #24292e;
+}
+
+.wrapper {
+    max-width: 960px;
+    margin: 0 auto 100px auto;
+    padding: 0 4%;
+    text-align: center;
+}
+
+/*------------------------------------------
+Mainvisual
+------------------------------------------*/
+#mainvisual{
+    margin-bottom: 50px;
+    text-align: center;
+    position: relative;
+}
+
+#mainvisual img{
+    width: 100%;
+    max-width: 1200px;
+    height: 100vh;
+    object-fit: cover;
+    background-position: center;
+}
+
+#mainvisual p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 80px;
+    color: white;
+    padding: 0;
+    margin: 0;
+    font-family: 'Monotype Corsiva';
+}
+
+/*------------------------------------------
+About
+------------------------------------------*/
+#about img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;     /*円にしてくれる*/
+    margin-right: 50px;
+}
+
+#about .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+#about .content li{
+    text-align: left;
+}
+
+#about .text{
+    text-align: left;
+    margin-left: 120px;
+}
+
+#information{
+    text-align: left;
+    padding: 0.5em 1em;
+    background: #e4fcff;
+    border-top: solid 6px #1dc1d6;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.32);
+}
+
+#information p {
+    margin: 5px auto;
+}
+#information p .icon {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 2px;
+}
+
+#information .infoTitle{
+    font-size: 22px;
+}
+
+.profile {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.infoSubstance {
+    margin-left: 50px;
+}
+
+.career {
+    display: flex;
+}
+
+.date {
+    width: 100px;
+}
+
+/*------------------------------------------
+SKill
+------------------------------------------*/
+#sub-title {
+    font-size: 1.5rem;
+}
+
+#sub-title .icon {
+    vertical-align: middle;
+    margin: 0 2px;
+}
+
+.language {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    align-items: baseline;
+    font-size: 0.8rem;
+}
+.language .icon {
+    width: 60px;
+    margin: 0 25px;
+}
+
+#applications {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+#quiz img {
+    width: 250px;
+    height: 190px;
+    border: solid 2px black;
+    margin: auto 20px;
+}
+#quiz:hover{
+    opacity: 0.7;
+}
+
+#calculator img {
+    width: 250px;
+    height: 190px;
+    border: solid 2px black;
+    margin: auto 20px;
+}
+
+#calculator:hover {
+    opacity: 0.7;
+}

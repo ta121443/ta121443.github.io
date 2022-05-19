@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+html {
+    font-size: 100%;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    border-radius: 10px;
+    display: inline-block;
+    padding: 0 auto;
+    font-size: 1.4rem;
+    margin: 50px 1%;
+    color: rgb(252, 252, 252);
+    background-color: rgb(12, 38, 98);
+    border: solid 1px rgb(12, 38, 98);
+    cursor: pointer;
+
+}
+
+.btn:hover {
+    opacity: 0.7;
+}
+
+#header {
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+#question {
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    margin: 100px auto;
+    font-size: 3rem;
+    color: white;
+    padding: 0 10px;
+    background-color: rgba(124, 8, 8);
+    
+}
