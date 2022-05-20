@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+html {
+    font-size: 100%;
+}
+
+body {
+    margin-top: 50px;
+}
+
+input {
+    width: 80px;
+    text-align: right;
+}
+
+#mainvisual {
+    text-align: center;
+}
+
+#window {
+    display: none;
+    margin-top: 50px;
+    background-color: aliceblue;
+}

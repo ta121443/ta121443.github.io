@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="stylesheet" href="accountant/accountant.css">
+</head>
+<body>
+    <form action="#" method="post" name="form1">
+        <select name="example">
+            <option value="サンプル1">サンプル1</option>
+            <option value="サンプル2">サンプル2</option>
+            <option value="サンプル3">サンプル3</option>
+        </select>
+        
+        <button name="selectBtn">選択</button>
+    </form>
+    
+    <div id="mainvisual">
+        <form action="#" method="post" name="form">
+            <p>
+                合計金額<br>
+                <input type="text" name="name">円
+            </p>
+            <p>
+                人数<br>
+                <input type="text" name="num">人
+            </p>
+            
+            
+            <button name="btn">送信</button>
+        </form>
+    
+        <div id="window">
+            <p id="amount">合計金額</p>
+            <p id="each">一人あたり</p>
+        </div>    
+    </div>
+    <script src="accountant/accountant.js"></script>
+</body>
+</html>
