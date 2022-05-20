@@ -17,7 +17,7 @@ $form.onsubmit = function () {
     if(amount % num === 0){
         $each.textContent = '一人あたりの金額は ' + each + ' 円です。';    
     } else {
-        $each.textContent = '割り切れません。一人殺してください。';
+        $each.textContent = '割り切れません。別の方法をお試しください。';
     }
     $window.style.display = 'inline-block';
     return false;
