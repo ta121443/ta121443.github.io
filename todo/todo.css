@@ -64,4 +64,5 @@ h1 {
 }
 #inputButton {
     margin-left: 50px;
+    cursor: pointer;
 }

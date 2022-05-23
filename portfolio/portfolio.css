@@ -160,10 +160,18 @@ SKill
     margin: 0 25px;
 }
 
+/*------------------------------------------
+Works
+------------------------------------------*/
+
 #applications {
     display: flex;
     justify-content: center;
     align-items: baseline;
+}
+
+#applications p {
+    margin-top: 10px;
 }
 
 #quiz img {
@@ -186,5 +194,17 @@ SKill
 }
 
 #calculator:hover {
+    opacity: 0.7;
+}
+
+#todo img {
+    width: 250px;
+    height: 190px;
+    margin: auto 20px;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.32);
+    align-items: center;
+}
+
+#todo:hover {
     opacity: 0.7;
 }
