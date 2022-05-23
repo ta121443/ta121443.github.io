@@ -8,13 +8,18 @@
         <title>Todoアプリ</title>
     </head>
     <body>
-        <div class="container">
+        <div class="wrapper">
             <h1>Todo</h1>
-            <form id="form">
-                <input type="text" id="input" 
-                placeholder="input New Todo!" autocomplete="off"> <button id="inputButton">入力</button>
-            </form>
-            <ul id="ul"></ul>    
+            <main>
+                <p id="instruction">左クリック：完了/解除　　　左クリック：削除</p>
+                <form id="form">
+                    <input type="text" id="input" 
+                    placeholder="input New Todo!" autocomplete="off"> <button id="inputButton">入力</button>
+                </form>
+                <div class="ul">
+                    <ul id="ul"></ul>    
+                </div>
+            </main>
         </div>
     </body>
 
