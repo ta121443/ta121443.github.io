@@ -5,17 +5,19 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="todo/todo.css">
-        <title>Todoリスト</title>
+        <title>Todoアプリ</title>
     </head>
-
     <body>
-        <ul id="list">
-            <li>Todo 1 <button class="listButton">done</button></li>
-            <li>Todo 2 <button class="listButton">done</button></li>
-            <li>Todo 3 <button class="listButton">done</button></li>
-        </ul>
+        <div class="container">
+            <h1>Todo</h1>
+            <form id="form">
+                <input type="text" id="input" 
+                placeholder="input New Todo!" autocomplete="off"> <button id="inputButton">入力</button>
+            </form>
+            <ul id="ul"></ul>    
+        </div>
+    </body>
 
-        <input type="text" id="newTodo"> <button id="addButton">add</button>
-    </body>         
     <script src="todo/todo.js"></script>
+
 </html>

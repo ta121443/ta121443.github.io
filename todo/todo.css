@@ -13,6 +13,11 @@ ul {
     list-style: none;
 }
 
+.container {
+    display: inline;
+    align-items: center;
+}
+
 .done {
     text-decoration: line-through;
 }
